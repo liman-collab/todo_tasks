@@ -1,0 +1,37 @@
+.task-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.buttons-task-item {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-edit {
+  background-color: darkorange;
+  border-radius: 6px;
+  width: 74px;
+  height: 31px;
+  border: navajowhite;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-delete {
+  background-color: red;
+  border-radius: 6px;
+  width: 74px;
+  height: 31px;
+  border: navajowhite;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Open Sans Condensed";
+  font-size: 21px;
+}

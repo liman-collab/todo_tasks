@@ -1,0 +1,18 @@
+.menu {
+  padding: 14px;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -3px #000;
+}
+.menu:hover {
+  background-color: #1d2d46;
+  cursor: pointer;
+}
+.item {
+  list-style: none;
+  color: wheat;
+  margin-left: 15px;
+}
+.menu-item {
+  padding: initial;
+}

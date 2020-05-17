@@ -1,0 +1,16 @@
+.dashboard {
+  height: auto;
+  width: 180px;
+  background-color: #001529;
+  color: #fff;
+}
+.task {
+  width: 85vw;
+  margin: 2px 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.main-d {
+  display: inline-flex;
+}
